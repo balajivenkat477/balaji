@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="prob27.js"></script>
+    <p>Create a function getDateAgo(date, days) to return the day of month days ago from the date.
+
+    For instance, if today is 20th, then getDateAgo(new Date(), 1) should be 19th and getDateAgo(new Date(), 2) should be
+    18th.
+
+    Should also work over months/years reliably:
+
+    let date = new Date(2015, 0, 2);
+
+    alert( getDateAgo(date, 1) ); // 1, (1 Jan 2015)
+
+    alert( getDateAgo(date, 2) ); // 31, (31 Dec 2014)
+    alert( getDateAgo(date, 365) ); // 2, (2 Jan 2014)<p>
+</body>
+
+</html>
