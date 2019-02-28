@@ -1,0 +1,89 @@
+.container > i{
+    color:deepskyblue;
+}
+.nav-link > a{
+    color:black;
+}
+.nav-item > a{
+    color:black;
+}
+.nav-item > a:hover{
+    color:deepskyblue;
+}
+.container-fluid{
+    position: relative;
+
+}
+.content{
+position: relative;
+bottom:350px;
+text-align: center;
+}
+.content > h1{
+color: deepskyblue;
+}
+.content > a:hover{
+ border-radius: 0px;
+ background-color: black;
+}
+.section-title> h1{
+ padding-top:40px;
+ font-family: Arial, Helvetica, sans-serif;
+ text-decoration: underline;
+ text-underline-position: under;
+ text-decoration-color: deepskyblue;
+}
+
+
+.image2{
+    width:90%;
+    height:90%;
+    padding:20px;
+    border:1px solid;
+    color:deepskyblue;
+    border-radius: 20px;
+}
+
+.col-md-6 > ul {
+  list-style: none;
+}
+
+.col-md-6 > ul li:before {
+  content: '✓';
+  color:deepskyblue;
+  padding-right: 1px;
+}
+
+.col-md-3 > i{
+    padding-top:70px;
+    color:deepskyblue;
+    font-size: 50px;
+}
+.col-md-3 > h3{
+    padding-top:20px;
+    font-family:Roboto, sans-serif;
+    color: grey;
+}
+.col-md-3 > p{
+    font-family:Roboto, sans-serif;
+    color: grey;
+}
+.list-group-item > a:hover{
+    background-color: black;
+}
+.row > a:hover{
+    background-color: black;
+}
+.name{
+padding-left:420px;
+
+
+}
+.email {
+
+padding-right:420px;
+}
+.message > input{
+    padding:60px 240px;
+
+}
