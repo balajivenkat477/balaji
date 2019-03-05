@@ -1,0 +1,305 @@
+
+.navbar-brand{
+    color: black;
+    font-size: 25px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 1px 1px white;
+}
+.nav-item > a{
+    color:#666;
+    font-size: 20px;
+}
+
+
+.button1{
+
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    border-radius:30px;
+    border: 2px solid black;
+    background: transparent;
+    color:black;
+}
+.button1:hover{
+    background-color: #E3AE57;
+    border:0px;
+    color:white;
+
+}
+.nav-item > a:hover{
+    color:#E3AE57;
+}
+.center2 >h6{
+ color: #888;
+ font-weight: 300;
+
+}
+.center2 >h1{
+padding-top:30px;
+ color:black;
+ font-weight: 300;
+}
+
+.center2 >p{
+  color: #888;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.9px;
+}
+.center2 {
+    padding-top:21px;
+}
+.ImageCont {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.ImageCont > img {
+    width: 100%;
+    height: auto;
+}
+#one2{
+    background-color:#f1e2d7;
+}
+.sec1{
+    padding: 0px;
+    margin:0px;
+    float: left;
+}
+.sec1 > h1{
+  padding-left:30px;
+  padding-top:40px;
+}
+.sec1 > h5{
+  padding-left:30px;
+  color:#E3AE57;
+}
+.sec1 > p{
+padding-left:30px;
+color: #888;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.9px;
+}
+.sec2 {
+    padding: 0;
+    width: 100%;
+}
+.sec2 .image2{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.sec3{
+
+    background-color: #E3AE57;
+    padding:0px;
+    margin: 0px;
+}
+.secins0{
+    padding:10px;
+}
+.secins{
+    padding: 50px;
+}
+.secins > h1{
+   color: white;
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.secins > h5{
+    color: white;
+}
+.secins > h6{
+    padding-top:30px;
+}
+.proe1{
+     color: white;
+     float: right;
+}
+.section3 .col-md-3{
+    padding:0px;
+    margin:0px;
+    float: left;
+
+    width:100%;
+}
+.sect1{
+    background-color: #E3AE57;
+    color:white;
+    padding:60px;
+
+    width:100%;
+    float: left;
+
+}
+.sect2{
+    padding:60px;
+    background-color: #E9724C;
+    color:white;
+
+    width:100%;
+    float: left;
+
+}
+.sect3{
+      padding:60px;
+      background-color:black;
+     color:white;
+
+    width:100%;
+
+
+}
+
+.sect4{
+    padding:60px;
+
+    width:100%;
+
+}
+.sect1 > i{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.sect2 > i{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.sect3 > i{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.sect4 > i{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.sect4 > p{
+    color: #888;
+}
+.sec4{
+    padding: 0px;
+    margin: 0px;
+    float:left;
+    width:100%;
+}
+.sec5{
+    padding: 0px;
+    margin: 0px;
+    float:left;
+    height: 100vh;
+
+}
+.sec4 >img{
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.supsec4{
+     height:100%;
+     background-color: #E9724C;
+     padding:30px;
+}
+#str{
+    color: white;
+    padding-left: 10px;
+
+}
+
+#str1{
+    padding-left:10px;
+    font-size: 20px;
+    color: black;
+}
+.supsec5{
+    height:100%;
+    background-color: #E3AE57;
+     padding:30px ;
+}
+.secimg{
+    height: 100%;
+    width:100%;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+#quotes {
+    background: url(../quotes-bg.jpg) 50% 0 repeat-y fixed;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    position: relative;
+    padding: 100px 0px;
+}
+.overlay {
+    background: #121212;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.7;
+}
+.sec6{
+    width:100%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+.subsec6{
+    background-color:#E9724C;
+    padding: 0px 30px 30px 30px;
+
+}
+
+.sec7 {
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+.subsec7 > img{
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.sec8{
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin:0px;
+
+}
+.subsec8{
+    padding:30px 60px;
+    width: 100%;
+    height:100vh;
+    background-color: black;
+    color: white;
+}
+.subsec6{
+
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+.button2{
+
+    border-radius:25px;
+    color: black;
+    background-color: white;
+    padding:5px 100px;
+
+}
+.button2:hover{
+    border-radius:25px;
+    background:transparent;
+
+}
+
+
+
+
