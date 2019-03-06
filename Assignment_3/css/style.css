@@ -1,6 +1,7 @@
 .container > i{
     color:deepskyblue;
 }
+
 .nav-link > a{
     color:black;
 }
@@ -10,45 +11,56 @@
 .nav-item > a:hover{
     color:deepskyblue;
 }
-.container-fluid{
+.sec1{
+    padding: 0px;
+    margin: 0px;
+     height: 100vh;
+    width:100%;
     position: relative;
+}
+
+.content{
+
+    background:url(../images/intro-bg.jpg);
+    background-color: #E5E5E5;
+    width:100%;
+    height:100vh;
+    background-size: cover;
+}
+
+.content1{
+    position:absolute;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    padding-top:220px;
 
 }
-.content{
-position: relative;
-bottom:350px;
-text-align: center;
-}
-.content > h1{
+
+.content1 > h1{
+    font-size: 70px;
 color: deepskyblue;
 }
-.content > a:hover{
+.content1 > a:hover{
  border-radius: 0px;
  background-color: black;
 }
-.section-title> h1{
- padding-top:40px;
- font-family: Arial, Helvetica, sans-serif;
- text-decoration: underline;
- text-underline-position: under;
- text-decoration-color: deepskyblue;
-}
-
 
 .image2{
-    width:90%;
-    height:90%;
+    width:100%;
     padding:20px;
-    border:1px solid;
-    color:deepskyblue;
-    border-radius: 20px;
+    background-size: cover;
+    background-position: 50% 50%;
+     border:1px solid deepskyblue;
+     border-radius:20px;
+
 }
 
-.col-md-6 > ul {
+.subsec0001 > ul {
   list-style: none;
 }
 
-.col-md-6 > ul li:before {
+.subsec0001 > ul li:before {
   content: '✓';
   color:deepskyblue;
   padding-right: 1px;
@@ -74,16 +86,4 @@ color: deepskyblue;
 .row > a:hover{
     background-color: black;
 }
-.name{
-padding-left:420px;
 
-
-}
-.email {
-
-padding-right:420px;
-}
-.message > input{
-    padding:60px 240px;
-
-}
