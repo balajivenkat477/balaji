@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <script src="prob57.js"></script>
+        <p>
+            The result of debounce(f, ms) decorator should be a wrapper that passes the call to f at maximum once per ms milliseconds.
+
+            In other words, when we call a “debounced” function, it guarantees that all other future in the closest ms milliseconds will be ignored.
+            
+            For instance:
+            
+            let f = debounce(alert, 1000);
+            
+            f(1); // runs immediately
+            f(2); // ignored
+            
+            setTimeout( () => f(3), 100); // ignored ( only 100 ms passed )
+            setTimeout( () => f(4), 1100); // runs
+            setTimeout( () => f(5), 1500); // ignored (less than 1000 ms from the last run)
+        </p>
+    </body>
+
+    </html>

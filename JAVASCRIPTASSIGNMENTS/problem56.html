@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <script src="prob56.js"></script>
+        <p>
+            Create a decorator delay(f, ms) that delays each call of f by ms milliseconds.
+
+            For instance:
+            
+            function f(x) {
+              alert(x);
+            }
+            
+            // create wrappers
+            let f1000 = delay(f, 1000);
+            let f1500 = delay(f, 1500);
+            
+            f1000("test"); // shows "test" after 1000ms
+            f1500("test"); // shows "test" after 1500ms 
+        </p>
+    </body>
+
+    </html>
