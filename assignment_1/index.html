@@ -2,693 +2,862 @@
 <html lang="en">
 
 <head>
-    <title>MiApp - Minimal App Landing Template</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome</title>
+
+    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <script>
-        $(window).load(function () {
-            $(".loader").fadeOut();
-        });
-    </script>
+
+
+    <!-- carousel section ---------------------------------------- -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+    <!-- Custom style -------------------------------------- -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div class="loader"></div>
-    <div class="container-fluid">
-        <nav class="navbar fixed-top bg-faded">
-            <a class="navbar-brand"></a>
-            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
-                data-target="#collapsibleNavbar">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#features">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#screenshots">Screenshots</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#video">Video</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#pricing">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
+
+    <!-- Navigation Bar start............................. -->
+    <header>
+        <nav id="nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Features">Features</a></li>
+                <li><a href="#Screenshots">Screenshots</a></li>
+                <li><a href="#Video">Video</a></li>
+                <li><a href="#Pricing">Pricing</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
         </nav>
+        <div class="menu-toggle" onclick="myFun(this)">
+            <div id="bar1"></div>
+            <div id="bar2"></div>
+            <div id="bar3"></div>
+        </div>
+    </header>
+    <!-- Navigation Bar End............................. -->
 
-        <!-- NAVIGATION START -->
-        <div id="home" class="screen1">
+
+
+    <div class="container-fluid">
+
+
+        <!-- intro Section start............................. -->
+        <section class="intro" id="home">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-7 col-sm-12 col-xs-12 banner-text">
-                        <h1>Mi App</h1>
-                        <p>This is the coolest app you've ever seen, the amazing and great app made with love just for
-                            you </p>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="intro-section-left text-left">
+                            <h1>Mi App</h1>
+                            <p>This is the coolest app you've ever seen, the amazing and great app made with love just
+                                for</p>
+                        </div>
+                        <div class="intro-btn">
+                            <a href="#" class="custom-btn-intro btn btn-dark" class="">
+                                <img src="./img/appstore.png" alt="">
+                            </a>
+                            <a href="#" class="custom-btn-intro btn btn-dark" class="">
+                                <img src="./img/googleplay.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="intro-section-right text-center pt-5">
+                            <img src="./img/phone1.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section End..................................... -->
+
+
+
+
+
+        <!-- features Section start............................. -->
+        <section class="features mt-4" id="Features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="features-img text-center">
+                            <img src="./img/phone2.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="features-title">
+                            <h2>An App That You'll Love</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been
+                                the industry's standard dummy text ever since the 1500s
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="features-item text-sm-center">
+                            <i class="far fa-heart "></i>
+                            <h4>MADE WITH LOVE</h4>
+                            <p>Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum vocent mediocritatem an,
+                                cule
+                                dicta
+                                iriure.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="features-item text-sm-center">
+                            <i class="fas fa-sync "></i>
+                            <h4>REGULAR UPDATES</h4>
+                            <p>Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum vocent mediocritatem an,
+                                cule
+                                dicta
+                                iriure.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="features-item text-sm-center">
+                            <i class="fas fa-chart-pie "></i>
+                            <h4>BETTER REPORTS</h4>
+                            <p>Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum vocent.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section End............................. -->
+
+
+
+        <!-- features-1 section start -------------------------------- -->
+        <section class="features-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="features-1-left">
+                            <h2>Simple & Clean</h2>
+                            <p>The best ever app, for you. You're just a moment away from installing this app.</p>
+                            <a href="#" class="btn btn-outline-dark btn-1">GET STARTED</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 pt-5">
+                        <div class="features-1-right">
+                            <img src="img/phone-white.png" alt="" class="img-fluid front-img">
+                            <img src="img/phone-black.png" alt="" class="img-fluid back-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- features-1 section end -------------------------------- -->
+
+
+
+
+
+        <!-- features-2 section start --------------------------------->
+        <section class="features-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 pt-5">
+                        <div class="features-1-right">
+                            <img src="img/phone-white.png" alt="" class="img-fluid front-img">
+                            <img src="img/phone-black.png" alt="" class="img-fluid back-img">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="features-1-left pl-md-4">
+                            <h2>Simple & Clean</h2>
+                            <p>The best ever app, for you. You're just a moment away from installing this app.</p>
+                            <a href="#" class="btn btn-outline-dark btn-1">GET STARTED</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- features-2 section start --------------------------------->
+
+
+
+        <!-- screenshots section ----------------------------------- -->
+        <section class="screenshots" id="Screenshots">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="screenshots-title text-center">
+                            <h2>SCREENSHOTS</h2>
+                            <p>Take a look at the app by its screenshots</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="owl-carousel owl-theme">
+                            <div class="items">
+                                <img src="./img/people1.jpg" class="img-fluid" alt="">
+                                <div class="overlay text-center">
+                                    <i class="far fa-plus-square"></i>
+                                </div>
+                            </div>
+                            <div class="items">
+                                <img src="./img/people1.jpg" class="img-fluid" alt="">
+                                <div class="overlay text-center">
+                                    <i class="far fa-plus-square"></i>
+                                </div>
+                            </div>
+                            <div class="items">
+                                <img src="./img/people1.jpg" class="img-fluid" alt="">
+                                <div class="overlay text-center">
+                                    <i class="far fa-plus-square"></i>
+                                </div>
+                            </div>
+                            <div class="items">
+                                <img src="./img/people1.jpg" class="img-fluid" alt="">
+                                <div class="overlay text-center">
+                                    <i class="far fa-plus-square"></i>
+                                </div>
+                            </div>
+                            <div class="items">
+                                <img src="./img/people1.jpg" class="img-fluid" alt="">
+                                <div class="overlay text-center">
+                                    <i class="far fa-plus-square"></i>
+                                </div>
+                            </div>
+                            <div class="items">
+                                <img src="./img/people1.jpg" class="img-fluid" alt="">
+                                <div class="overlay text-center">
+                                    <i class="far fa-plus-square"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- screenshots section ----------------------------------- -->
+
+
+
+        <!-- design section ---------------------------------------- -->
+        <section class="design">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 pt-4">
+                        <div class="design-left text-md-right text-sm-center">
+                            <i class="far fa-heart"></i><br>
+                            <h4>BEAUTIFUL DESIGN</h4>
+                            <p>Ad oportere voluptatibus nec, sea ei civibus praesent. At timeam expetenda inciderint
+                                has.</p>
+                            <br>
+                            <i class="far fa-comment"></i><br>
+                            <h4>REGULAR UPDATES</h4>
+                            <p>Ad oportere voluptatibus nec, sea ei civibus praesent. At timeam expetenda inciderint
+                                has.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 pt-4">
+                        <div class="design-img">
+                            <img src="./img/phone-white.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 pt-4">
+                        <div class="design-right">
+                            <i class="fas fa-shopping-cart"></i><br>
+                            <h4>BEAUTIFUL DESIGN</h4>
+                            <p>Ad oportere voluptatibus nec, sea ei civibus praesent. At timeam expetenda inciderint
+                                has.</p>
+                            <br><br>
+                            <i class="far fa-bell-slash"></i><br>
+                            <h4>REGULAR UPDATES</h4>
+                            <p>Ad oportere voluptatibus nec, sea ei civibus praesent. At timeam expetenda inciderint
+                                has.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- design section ---------------------------------------- -->
+
+
+
+        <!-- video-section ----------------------------------------- -->
+        <section class="video-section" id="Video">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="video-section-left">
+                            <h2>Easily embed a cool video for your app</h2>
+                            <p>No dolorem blandit theophrastus eos, nam eu persecuti repudiandae, duo hinc vide aliquip
+                                et. Ex atquivoluptatibus eum, cu case intellegebat eum, mea ex regione patrioque
+                                signiferumque. Pri ei solet graecis. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-sm-12">
+                        <div class="video-section-right">
+                            <iframe src="https://www.youtube.com/embed/GIalL5fkhPM" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- video-section ----------------------------------------- -->
+
+
+
+        <!-- Pricing section --------------------------------------- -->
+        <section class="price-section" id="Pricing">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="price-text text-left">
+                            <h2>Choose your plan or get started with free trial</h2>
+                            <p>Semper torquatos est no. cule at discere offendit, cule et fugit iuvaret omittam. Eu sint
+                                labore pri,
+                                ea probo tollit lobortis mea. Integre blandit aliquando ei vel, sit eirmod vituperata
+                                eu.</p><br>
+                            <a href="#" class="btn btn-outline-dark price-btn">Get Free Trial</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card">
+                            <div class="card-body card-decoration text-center">
+                                <h4>BASIC</h4>
+                                <div class="text-center mt-3 mb-3">
+                                    <span class="currency">$</span><span class="amount">13</span><span
+                                        class="period">/MO</span>
+                                </div>
+                                <p>1TB Storage</p>
+                                <p>late Support</p>
+                                <p>3 Tasks / Day</p>
+                                <a href="" class="btn btn-outline-dark price-btn mt-4 mb-4">SIGN UP</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card">
+                            <div class="card-body card-decoration text-center">
+                                <h4>PRO</h4>
+                                <div class="text-center mt-3 mb-3">
+                                    <span class="currency">$</span><span class="amount">24</span><span
+                                        class="period">/MO</span>
+                                </div>
+                                <p>2TB Storage</p>
+                                <p>Instant Support</p>
+                                <p>Unlimited Tasks</p>
+                                <a href="" class="btn btn-outline-dark price-btn mt-4 mb-4">SIGN UP</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Pricing section --------------------------------------- -->
+
+
+
+
+        <!-- Newsletter section ------------------------------------ -->
+        <section class="newsletter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 co-sm-12">
+                        <div class="newsletter-body text-center">
+                            <h2>SUBSCRIBE TO NEWSLETTER</h2>
+                            <div class="input-group mb-4 mt-4">
+                                <input type="text" class="form-control custom-form subscribe-field"
+                                    placeholder="Your Email">
+                                <div class="input-group-append">
+                                    <button class="btn subscribe-btn" type="submit">SUBSCRIBE</button>
+                                </div>
+                            </div>
+                            <p>Don't worry, we will never sell or share your info</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Newsletter section ------------------------------------ -->
+
+
+
+        <!-- Team Section ------------------------------------------ -->
+        <section class="team">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="team-content">
+                            <h2>Meet the geniuses behind this amazing app</h2>
+                            <p>No dolorem blandit theophrastus eos, nam eu persecuti repudiandae, duo hinc vide aliquip
+                                et. Ex
+                                atqui
+                                voluptatibus eum, cu case intellegebat eum, mea ex regione patrioque signiferumque.</p>
+                            <br>
+                            <a href="#" class="btn btn-outline-dark team-btn">Join our team</a>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-sm-12">
+                        <div class="team-gallery">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-12 p-0 text-sm-center">
+                                    <div class="team-img">
+                                        <img src="./img/people1.jpg" class="img-fluid" alt="">
+                                        <div class="overlay">
+                                            <div class="social-team text-center p-0">
+                                                <h4>Jake Doe</h4>
+                                                <p>Founder & CEO</p>
+                                                <ul>
+                                                    <li>
+                                                        <a href='#'><i class="fab fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>
+                                                            <i class="fab fa-google-plus-g"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>
+                                                            <i class="fab fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-12 p-0 text-sm-center">
+                                    <div class="team-img">
+                                        <img src="./img/people1.jpg" class="img-fluid" alt="">
+                                        <div class="overlay">
+                                            <div class="social-team text-center p-0">
+                                                <h4>Jake Doe</h4>
+                                                <p>Founder & CEO</p>
+                                                <ul>
+                                                    <li>
+                                                        <a href='#'><i class="fab fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>
+                                                            <i class="fab fa-google-plus-g"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>
+                                                            <i class="fab fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-12 p-0 text-sm-center">
+                                    <div class="team-img">
+                                        <img src="./img/people1.jpg" class="img-fluid" alt="">
+                                        <div class="overlay">
+                                            <div class="social-team text-center p-0">
+                                                <h4>Jake Doe</h4>
+                                                <p>Founder & CEO</p>
+                                                <ul>
+                                                    <li>
+                                                        <a href='#'><i class="fab fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>
+                                                            <i class="fab fa-google-plus-g"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>
+                                                            <i class="fab fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 col-sm-12 p-0 text-sm-center">
+                                    <div class="team-img">
+                                        <img src="./img/people1.jpg" class="img-fluid" alt="">
+                                        <div class="overlay">
+                                            <div class="social-team text-center p-0">
+                                                <h4>Jake Doe</h4>
+                                                <p>Founder & CEO</p>
+                                                <ul>
+                                                    <li>
+                                                        <a href='#'><i class="fab fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>
+                                                            <i class="fab fa-google-plus-g"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>
+                                                            <i class="fab fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-12 p-0 text-sm-center">
+                                    <div class="team-img">
+                                        <img src="./img/people1.jpg" class="img-fluid" alt="">
+                                        <div class="overlay">
+                                            <div class="social-team text-center p-0">
+                                                <h4>Jake Doe</h4>
+                                                <p>Founder & CEO</p>
+                                                <ul>
+                                                    <li>
+                                                        <a href='#'><i class="fab fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>
+                                                            <i class="fab fa-google-plus-g"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>
+                                                            <i class="fab fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-12 p-0 text-sm-center">
+                                    <div class="team-img">
+                                        <img src="./img/people1.jpg" class="img-fluid" alt="">
+                                        <div class="overlay">
+                                            <div class="social-team text-center p-0">
+                                                <h4>Jake Doe</h4>
+                                                <p>Founder & CEO</p>
+                                                <ul>
+                                                    <li>
+                                                        <a href='#'><i class="fab fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>
+                                                            <i class="fab fa-google-plus-g"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='#'>
+                                                            <i class="fab fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Team Section ------------------------------------------ -->
+
+
+
+
+        <!-- clients section --------------------------------------- -->
+        <section class="clients">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="our-clients">
+                            <h2>Our Clients</h2>
+                            <p>Take a look at our clients and see what they say about us</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-6 col-sm-12">
                         <div class="row">
-                            <div class="col-md-4 col-sm-5 col-xs-5 banner-img1">
-                                <a href="#"><img src="/images/appstore.png" class="img-fluid"></a>
-                            </div>
-                            <div class="col-md-4 col-sm-5 col-xs-5 banner-img2">
-                                <a href="#"><img src="/images/googleplay.png" class="img-fluid"></a>
-                            </div>
+                            <div class="col-md-4 col-sm-4 logo-decoration"><img src="img/logo1.png" alt=""
+                                    class="img-fluid"></div>
+                            <div class="col-md-4 col-sm-4 logo-decoration"><img src="img/logo1.png" alt=""
+                                    class="img-fluid"></div>
+                            <div class="col-md-4 col-sm-4 logo-decoration"><img src="img/logo1.png" alt=""
+                                    class="img-fluid"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4 logo-decoration"><img src="img/logo1.png" alt=""
+                                    class="img-fluid"></div>
+                            <div class="col-md-4 col-sm-4 logo-decoration"><img src="img/logo1.png" alt=""
+                                    class="img-fluid"></div>
+                            <div class="col-md-4 col-sm-4 logo-decoration"><img src="img/logo1.png" alt=""
+                                    class="img-fluid"></div>
                         </div>
                     </div>
-                    <div class="col-md-5 col-sm-12 col-xs-12 banner-img3">
-                        <img src="/images/phone3.png" class="img-fluid">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="client-carousel">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <i class="fas fa-quote-left carousel-icon"></i>
+                                        <p>
+                                            An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione
+                                            tacimates
+                                            vituperatoribus, ut mutat delenit est. Adhuc scripserit et sea, everti
+                                            liberavisse no
+                                            sit.
+                                        </p>
+                                        <h4>Michael Doe</h4>
+                                        <span>CEO @ Google</span>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <i class="fas fa-quote-left carousel-icon"></i>
+                                        <p>
+                                            An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione
+                                            tacimates
+                                            vituperatoribus, ut mutat delenit est. Adhuc scripserit et sea, everti
+                                            liberavisse no
+                                            sit.
+                                        </p>
+                                        <h4>Michael Doe</h4>
+                                        <span>CEO @ Google</span>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <i class="fas fa-quote-left carousel-icon"></i>
+                                        <p>
+                                            An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione
+                                            tacimates
+                                            vituperatoribus, ut mutat delenit est. Adhuc scripserit et sea, everti
+                                            liberavisse no
+                                            sit.
+                                        </p>
+                                        <h4>Michael Doe</h4>
+                                        <span>CEO @ Google</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- NAVIGATION END -->
+        </section>
+        <!-- clients section --------------------------------------- -->
 
-        <!-- FEATURES SECTION START -->
-        <div id="features" class="screen1 section2">
+
+
+
+        <!-- FAQ section ------------------------------------------- -->
+        <section class="faq">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <img src="/images/phone2.png" class="img-fluid phone2-img">
-                        <div class="centered">
-                            <h1>An App That You'll Love</h1>
-                            <p>This app has a lot of cool features, you'll love them all. Lorem ipsum dolor sit amet is
-                                simply a <br> dummy text used by lazy guys. </p>
+                    <div class="col-md-12 col-sm-12">
+                        <div class="faq-title text-center">
+                            <h2>FAQ</h2>
+                            <p>Most common questions, answered here</p>
                         </div>
                     </div>
                 </div>
-                <div class="para3">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="faq-content">
+                            <h4>WHY IS THIS SO CHEAP?</h4>
+                            <p>An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates
+                                vituperatoribus,
+                                ut mutat delenit est. Adhuc scripserit et sea.</p><br>
+
+                            <h4>WHY CHOOSE US?</h4>
+                            <p>An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates
+                                vituperatoribus,
+                                ut mutat delenit est. Adhuc scripserit et sea.</p><br>
+
+                            <h4>WHAT WILL YOU GET?</h4>
+                            <p>An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates
+                                vituperatoribus,
+                                ut mutat delenit est. Adhuc scripserit et sea.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="faq-content">
+                            <h4>HOW MANY DAYS WILL YOU GET TRIAL?</h4>
+                            <p>An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates
+                                vituperatoribus,
+                                ut mutat delenit est. Adhuc scripserit et sea.</p><br>
+
+                            <h4>WHAT CAN I DO WITH THIS APP?</h4>
+                            <p>An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates
+                                vituperatoribus,
+                                ut mutat delenit est. Adhuc scripserit et sea.</p><br>
+
+                            <h4>WHY IS THIS SO CHEAP?</h4>
+                            <p>An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates
+                                vituperatoribus,
+                                ut mutat delenit est. Adhuc scripserit et sea.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FAQ section ------------------------------------------- -->
+
+
+
+
+        <!-- app section ------------------------------------------- -->
+        <section class="app">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="app-content text-center">
+                            <h2>Download App Now</h2>
+                            <p>Nam reformidans vituperatoribus at. Id nisl diceret maiestatis qui, mel affert doctus te.
+                                Ex
+                                assumocurreret eam. Lorem ipsum dolor sit amet is simply a dummy text.</p>
+                        </div>
+                        <div class="app-btn text-center mt-5">
+                            <a href="#" class="btn btn-dark"><img src="img/appstore.png" class="img-fluid"
+                                    alt="app-store"></a>
+                            <a href="#" class="btn btn-dark"><img src="img/googleplay.png" class="img-fluid"
+                                    alt="app-store"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- app section ------------------------------------------- -->
+
+
+
+
+        <!-- contact us section ------------------------------------ -->
+        <section class="contact" id="Contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="contact-title text-center">
+                            <h2>CONTACT US</h2>
+                            <p>Feel free to contact us for any help</p>
+                        </div>
+                    </div>
+                </div>
+                <form action="" method="post">
                     <div class="row">
-                        <div class="col-md-4">
-                            <i class="far fa-heart mb-4"></i>
-                            <h4>Made With Love</h4>
-                            <p>Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum vocent mediocritatem an,
-                                cule dicta iriure. </p>
-                        </div>
-                        <div class="col-md-4">
-                            <i class="fas fa-undo mt-0 mb-4"></i>
-                            <h4>Regular Updates</h4>
-                            <p>Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum vocent mediocritatem an,
-                                cule dicta iriure. </p>
-                        </div>
-                        <div class="col-md-4">
-                            <i class="fas fa-chart-pie mb-4"></i>
-                            <h4>Better Reports</h4>
-                            <p>Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum vocent mediocritatem an,
-                                cule dicta iriure. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- FEATURES SECTION END -->
-
-        <!-- SIMPLE SECTION START -->
-        <div class="screen1 screen-info">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="screeninfo-text">
-                            <h1>Simple & Clean</h1>
-                            <p>The best ever app, for you. You're just a moment away from installing this app.</p>
-                            <button class="getstarted">GET STARTED</button>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12 screeninfo-phn">
-                        <div class="phones-2">
-                            <img class="front img-fluid" src="/images/phone-white.png">
-                            <img class="back img-fluid" src="/images/phone-black.png">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- SIMPLE SECTION END -->
-
-        <!-- MOST POWERFUL SECTION START -->
-        <div class="screen1 screen-info2 mt-0">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-6 col-xs-12 screeninfo-phn2">
-                        <div class="phones-2">
-                            <img class="back2" src="/images/phone-black.png">
-                            <img class="front2" src="/images/phone-white.png">
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="screeninfo-text">
-                            <h1>Most Powerful</h1>
-                            <p>The best ever app, for you. You're just a moment away from installing this app.</p>
-                            <button class="getstarted">GET STARTED</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- MOST POWERFUL SECTION END -->
-
-        <div id="screenshots" class="screen1 screen-info carousel1">
-            <div class="carousel-text">
-                <h1>SCREENSHOTS</h1>
-                <p>Take a look at the app by its screenshots</p>
-            </div>
-            <div id="demo" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ul class="carousel-indicators">
-                    <li data-target="#demo" data-slide-to="0" class="active"></li>
-                    <li data-target="#demo" data-slide-to="1"></li>
-                </ul>
-                <!-- The slideshow -->
-                <div class="carousel-inner row">
-                    <div class="carousel-item active">
-                        <div class="inner-img">
-                            <img src="images/screens/1.jpg">
-                            <div class="overlay carousel-overlay">
-                                <div class="text">
-                                    <i class="fas fa-plus"></i>
-                                </div>
+                        <div class="col-md-6 col-sm-12 mt-4">
+                            <div class="form-group">
+                                <input type="text" class="form-control custom-form" id="" placeholder="Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control custom-form" id="" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control custom-form" id="" placeholder="Subject">
                             </div>
                         </div>
-                        <div class="inner-img">
-                            <img src="images/screens/2.jpg">
-                            <div class="overlay carousel-overlay">
-                                <div class="text">
-                                    <i class="fas fa-plus"></i>
-                                </div>
+                        <div class="col-md-6 col-sm-12 mt-4">
+                            <div class="form-group">
+                                <textarea class="form-control custom-form" rows="3" id="comment"
+                                    placeholder="Message"></textarea>
                             </div>
-                        </div>
-                        <div class="inner-img">
-                            <img src="images/screens/3.jpg">
-                            <div class="overlay carousel-overlay">
-                                <div class="text">
-                                    <i class="fas fa-plus"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="inner-img">
-                            <img src="images/screens/4.jpg">
-                            <div class="overlay carousel-overlay">
-                                <div class="text">
-                                    <i class="fas fa-plus"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="inner-img">
-                            <img src="images/screens/5.jpg">
-                            <div class="overlay carousel-overlay">
-                                <div class="text">
-                                    <i class="fas fa-plus"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="inner-img">
-                            <img src="images/screens/6.jpg">
-                            <div class="overlay carousel-overlay">
-                                <div class="text">
-                                    <i class="fas fa-plus"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="inner-img">
-                            <img src="images/screens/7.jpg">
-                            <div class="overlay carousel-overlay">
-                                <div class="text">
-                                    <i class="fas fa-plus"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="inner-img">
-                            <img src="images/screens/8.jpg">
-                            <div class="overlay carousel-overlay">
-                                <div class="text">
-                                    <i class="fas fa-plus"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="screen1 screen-info2 mt-0">
-            <div class="row">
-                <div class="col-md-4 section4-1">
-                    <i class="far fa-heart"></i>
-                    <h5>BEAUTIFUL DESIGN</h5>
-                    <p>Ad oportere voluptatibus nec, sea ei civibus praesent. At timeam expetenda inciderint has. </p>
-                    <i class="fas fa-undo"></i>
-                    <h5>REGULAR UPDATES</h5>
-                    <p>Ad oportere voluptatibus nec, sea ei civibus praesent. At timeam expetenda inciderint has. </p>
-                </div>
-                <div class="col-md-4 section4-2">
-                    <img src="images/phone3.png">
-                </div>
-                <div class="col-md-4 section4-3">
-                    <i class="fas fa-cart-arrow-down"></i>
-                    <h5>CART SYSTEM</h5>
-                    <p>Ad oportere voluptatibus nec, sea ei civibus praesent. At timeam expetenda inciderint has. </p>
-                    <i class="fas fa-magic"></i>
-                    <h5>MAGICAL APP</h5>
-                    <p>Ad oportere voluptatibus nec, sea ei civibus praesent. At timeam expetenda inciderint has. </p>
-                </div>
-            </div>
-        </div>
-        <div id="video" class="screen1 screen-info section5">
-            <div class="row">
-                <div class="col-md-4 section5-1">
-                    <h2>Easily embed a cool video for your app</h2>
-                    <p>
-                        No dolorem blandit theophrastus eos, nam eu persecuti repudiandae, duo hinc vide aliquip et. Ex
-                        atqui voluptatibus eum, cu case intellegebat eum, mea ex regione patrioque signiferumque. Pri ei
-                        solet graecis.
-                    </p>
-                </div>
-                <div class="col-md-8 section5-2">
-                    <embed src="https://www.youtube.com/embed/GIalL5fkhPM?rel=0&amp;showinfo=0">
-                </div>
-            </div>
-        </div>
-        <div id="pricing" class="screen1 screen-info2 mt-0 section6">
-            <div class="row">
-                <div class="col-md-4 section6-1">
-                    <h2>Choose your plan or get started with free trial</h2>
-                    <p>
-                        Semper torquatos est no. cule at discere offendit, cule et fugit iuvaret omittam. Eu sint labore
-                        pri, ea probo tollit lobortis mea. Integre blandit aliquando ei vel, sit eirmod vituperata eu.
-                    </p>
-                    <h5 class="gettrial">GET FREE TRIAL</h5>
-                </div>
-                <div class="col-md-4 section6-2">
-                    <div class="center">
-                        <h2>BASIC</h2>
-                        <div class="price">
-                            <span class="currency">$</span>
-                            <span class="amount">13</span>
-                            <span class="period">/mo</span>
-                        </div>
-                        <ul class="items">
-                            <li>1TB Storage</li>
-                            <li>Late Support</li>
-                            <li>3 Tasks /day</li>
-                        </ul>
-                        <h5 class="signup">SIGN UP</h5>
-                    </div>
-                </div>
-                <div class="col-md-4 section6-3">
-                    <div class="center2">
-                        <h2>PRO</h2>
-                        <div class="price">
-                            <span class="currency">$</span>
-                            <span class="amount">24</span>
-                            <span class="period">/mo</span>
-                        </div>
-                        <ul class="items">
-                            <li>2TB Storage</li>
-                            <li>Instant Support</li>
-                            <li>Unlimited Tasks</li>
-                        </ul>
-                        <h5 class="signup">SIGN UP</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="screen1 screen-info3 section7">
-            <div class="screen-info3-text text-center">
-                <h1>SUBSCRIBE TO NEWSLETTER</h1>
-                <form>
-                    <div class="input-group offset-md-2">
-                        <input type="text" class="form-control email-input" placeholder="Your Email" id="mail"
-                            name="email">
-                        <div class="input-group-append">
-                            <a href="#"> <span class="input-group-text">SUBSCRIBE</span></a>
+                            <button type="submit" class="btn custom-btn-contact">Send Message</button>
                         </div>
                     </div>
                 </form>
-                <p>Don't worry, we will never sell or share your info</p>
             </div>
-        </div>
-        <div class="screen1 screen-info2 section8">
-            <div class="row">
-                <div class="col-md-4 section8-1">
-                    <h2>Meet the geniuses behind this amazing app</h2>
-                    <p>
-                        No dolorem blandit theophrastus eos, nam eu persecuti repudiandae, duo hinc vide aliquip et. Ex
-                        atqui voluptatibus eum, cu case intellegebat eum, mea ex regione patrioque signiferumque.
-                    </p>
-                    <h5 class="gettrial">JOIN OUR TEAM</h5>
-                </div>
-                <div class="col-md-8 section8-2">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-4 hoverimg">
-                            <img src="images/people1.jpg">
-                            <div class="overlay">
-                                <div class="text">
-                                    <h4>JAKE DOE</h4>
-                                    <p>Founder & CEO</p>
-                                    <ul class="social">
-                                        <li>
-                                            <a href="#"><i class="fab fa-facebook-f"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fab fa-google-plus-g"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fab fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-4 hoverimg">
-                            <img src="images/people2.jpg">
-                            <div class="overlay">
-                                <div class="text">
-                                    <h4>JAKE DOE</h4>
-                                    <p>Founder & CEO</p>
-                                    <ul class="social">
-                                        <li>
-                                            <a href="#"><i class="fab fa-facebook-f"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fab fa-google-plus-g"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fab fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-4 hoverimg">
-                            <img src="images/people3.jpg">
-                            <div class="overlay">
-                                <div class="text">
-                                    <h4>JAKE DOE</h4>
-                                    <p>Founder & CEO</p>
-                                    <ul class="social">
-                                        <li>
-                                            <a href="#"><i class="fab fa-facebook-f"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fab fa-google-plus-g"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fab fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-4 hoverimg">
-                            <img src="images/people4.jpg">
-                            <div class="overlay">
-                                <div class="text">
-                                    <h4>JAKE DOE</h4>
-                                    <p>Founder & CEO</p>
-                                    <ul class="social">
-                                        <li>
-                                            <a href="#"><i class="fab fa-facebook-f"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fab fa-google-plus-g"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fab fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-4 hoverimg">
-                            <img src="images/people4.jpg">
-                            <div class="overlay">
-                                <div class="text">
-                                    <h4>JAKE DOE</h4>
-                                    <p>Founder & CEO</p>
-                                    <ul class="social">
-                                        <li>
-                                            <a href="#"><i class="fab fa-facebook-f"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fab fa-google-plus-g"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fab fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-4 hoverimg">
-                            <img src="images/people5.jpg">
-                            <div class="overlay">
-                                <div class="text">
-                                    <h4>JAKE DOE</h4>
-                                    <p>Founder & CEO</p>
-                                    <ul class="social">
-                                        <li>
-                                            <a href="#"><i class="fab fa-facebook-f"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fab fa-google-plus-g"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fab fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="screen1 screen-info section9">
-            <div class="clients-text">
-                <h1>OUR CLIENTS</h1>
-                <p>Take a look at our clients and see what they say about us</p>
-            </div>
-            <div class="row">
-                <div class="col-md-6 section9-1">
-                    <ul class="clients">
-                        <li>
-                            <img src="images/logo1.png">
-                        </li>
-                        <li>
-                            <img src="images/logo2.png">
-                        </li>
-                        <li>
-                            <img src="images/logo3.png">
-                        </li>
-                        <li>
-                            <img src="images/logo4.png">
-                        </li>
-                        <li>
-                            <img src="images/logo5.png">
-                        </li>
-                        <li>
-                            <img src="images/logo6.png">
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-6 carousel2">
-                    <div id="demo1" class="carousel slide" data-ride="carousel">
+        </section>
+        <!-- contact us section ------------------------------------ -->
 
-                        <!-- Indicators -->
-                        <ul class="carousel-indicators">
-                            <li data-target="#demo1" data-slide-to="0" class="active"></li>
-                            <li data-target="#demo1" data-slide-to="1"></li>
-                            <li data-target="#demo1" data-slide-to="2"></li>
-                        </ul>
 
-                        <!-- The slideshow -->
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="icon">
-                                    <i class="fas fa-quote-left"></i>
-                                </div>
-                                <div class="content">
-                                    <p>An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione
-                                        tacimates vituperatoribus, ut mutat delenit est. Adhuc scripserit et sea, everti
-                                        liberavisse no sit.</p>
-                                </div>
-                                <div class="author">
-                                    <h4>Michael Doe</h4>
-                                    <span>CEO @ Google</span>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="icon">
-                                    <i class="fas fa-quote-left"></i>
-                                </div>
-                                <div class="content">
-                                    <p>An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione
-                                        tacimates vituperatoribus, ut mutat delenit est. Adhuc scripserit et sea, everti
-                                        liberavisse no sit.</p>
-                                </div>
-                                <div class="author">
-                                    <h4>Michael Doe</h4>
-                                    <span>CEO @ Google</span>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="icon">
-                                    <i class="fas fa-quote-left"></i>
-                                </div>
-                                <div class="content">
-                                    <p>An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione
-                                        tacimates vituperatoribus, ut mutat delenit est. Adhuc scripserit et sea, everti
-                                        liberavisse no sit.</p>
-                                </div>
-                                <div class="author">
-                                    <h4>Michael Doe</h4>
-                                    <span>CEO @ Google</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="screen1 screen-info2 mt-0">
-            <div class="faq">
-                <h1>FAQ</h1>
-                <p>Most common questions, answered here</p>
-            </div>
-            <div class="row faq-ques">
-                <div class="col-md-6 col-sm-12 col-xs-12 firstcol">
-                    <h4>Why is this so cheap?</h4>
-                    <p>An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates
-                        vituperatoribus, ut mutat delenit est. Adhuc scripserit et sea. </p>
 
-                </div>
-                <div class="col-md-6 col-sm-12 col-xs-12 secondcol">
-                    <h4>How many days will you get trial?</h4>
-                    <p>An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates
-                        vituperatoribus, ut mutat delenit est. Adhuc scripserit et sea. </p>
-                </div>
-                <div class="col-md-6 col-sm-12 col-xs-12 firstcol">
-                    <h4>Why Choose Us?</h4>
-                    <p>An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates
-                        vituperatoribus, ut mutat delenit est. Adhuc scripserit et sea. </p>
-
-                </div>
-                <div class="col-md-6 col-sm-12 col-xs-12 secondcol">
-                    <h4>What can I do with this app?</h4>
-                    <p>An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates
-                        vituperatoribus, ut mutat delenit est. Adhuc scripserit et sea. </p>
-                </div>
-                <div class="col-md-6 col-sm-12 col-xs-12 firstcol">
-                    <h4>What will you get?</h4>
-                    <p>An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates
-                        vituperatoribus, ut mutat delenit est. Adhuc scripserit et sea. </p>
-
-                </div>
-                <div class="col-md-6 col-sm-12 col-xs-12 secondcol">
-                    <h4>Why is this so cheap?</h4>
-                    <p>An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates
-                        vituperatoribus, ut mutat delenit est. Adhuc scripserit et sea. </p>
-                </div>
-            </div>
-        </div>
-        <div class="screen1 screen-info3 section10">
-            <div class="screen-info3-text text-center">
-                <h1>Download App Now</h1>
-                <p>Nam reformidans vituperatoribus at. Id nisl diceret maiestatis qui, mel affert doctus te. Ex assum
-                    ocurreret eam. Lorem ipsum dolor sit amet is simply a dummy text. </p>
-            </div>
-            <div class="row section10-1">
-                <div class="col-md-3 col-sm-6 col-xs-6 offset-md-4 offset-sm-2 download-img1">
-                    <a href="#"><img src="/images/appstore.png"></a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-6 download-img2">
-                    <a href="#"><img src="/images/googleplay.png"></a>
-                </div>
-            </div>
-        </div>
-        <div id="contact" class="screen1 screen-info2 mt-0">
-            <div class="contact text-center">
-                <h1>CONTACT US</h1>
-                <p>Feel free to contact us for any help</p>
-            </div>
-            <form class="contact-form" id="contact-form" data-toggle="validator" method="post" novalidate="true">
+        <!-- footer Section start............................. -->
+        <div class="row footer">
+            <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Name" name="name" required="">
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Email" name="email" required="">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Subject" name="subject" required="">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <textarea class="form-control" placeholder="Message" name="message" required=""
-                                style="height: 91px;"></textarea>
-                        </div>
-                        <div class="form-group text-center">
-                            <button class="btn-minimal btn-block disabled btn-contact" type="submit">Send
-                                Message</button>
-                        </div>
+                    <div class="col-md-12 col-sm-12">
+                        <p>Copyright Mi App © 2016. a Noman Ali Samejo Production</p>
                     </div>
                 </div>
-            </form>
+            </div>
         </div>
-        <footer>Copyright Mi App © 2016. a Noman Ali Samejo Production</footer>
+        <!-- Footer Section End............................. -->
     </div>
+
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script>
+        function myFun(x) {
+            var nav = document.getElementById('nav');
+            if (nav.style.display === 'block') {
+                nav.style.display = "none";
+                x.classList.toggle('change');
+            } else {
+                nav.style.display = "block";
+                x.classList.toggle('change');
+            }
+        }
+    </script>
+
+
+    <!-- carousel script -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 2,
+            nav: false,
+            autoplay: 1000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        })
+    </script>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: false,
+            margin: 2,
+            nav: false,
+            autoplay: 1000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 4
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        })
+    </script>
 </body>
 
 </html>
