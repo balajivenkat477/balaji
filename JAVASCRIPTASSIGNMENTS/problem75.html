@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <script src="prob75.js"></script>
+        <p>
+                We have rabbit inheriting from animal.
+
+                If we call rabbit.eat(), which object receives the full property: animal or rabbit?
+                
+                let animal = {
+                  eat() {
+                    this.full = true;
+                  }
+                };
+                
+                let rabbit = {
+                  __proto__: animal
+                };
+                
+                rabbit.eat();
+               
+        </p>
+    </body>
+
+    </html>

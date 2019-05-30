@@ -1,0 +1,12 @@
+let age1 = document.getElementById('age-table');
+console.log(age1);
+let age2 = document.getElementsByTagName('label');
+console.log(age2);
+let age3 = document.getElementsByTagName('td')[0];
+console.log(age3);
+let age4 = document.getElementsByName('search');
+console.log(age4);
+let age5 = document.getElementsByTagName('input')[0];
+console.log(age5);
+let age6 = document.querySelectorAll('input');
+console.log(age6[age6.length-1]);
